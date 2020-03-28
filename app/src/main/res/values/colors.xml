@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2780B9</color>
+    <color name="colorPrimaryDark">#2780B9</color>
+    <color name="colorAccent">#131111</color>
+    <color name="colorCheck">#FDFFFF</color>
+    <color name="corBorda">#A5A5A5</color>
+    <color name="colorBackground">#0581C5</color>
+    <color name="colorMemory">#467020</color>
+</resources>

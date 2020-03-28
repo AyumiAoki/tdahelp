@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "714384976678",
+    "firebase_url": "https://tdahelp-java.firebaseio.com",
+    "project_id": "tdahelp-java",
+    "storage_bucket": "tdahelp-java.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714384976678:android:07e436f24eeb8f2a562fe7",
+        "android_client_info": {
+          "package_name": "com.example.pibic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714384976678-1glbcc0ojfut4d08t9cjjhtfcnbhnnn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pibic",
+            "certificate_hash": "32d0939e444dfa4b3d7b5ed22f6b7e34b9ae26ee"
+          }
+        },
+        {
+          "client_id": "714384976678-i0hjua6jnok662hv5h9orbqprpe0hk62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-qpXpembZaLhPQ0SIr3lW4Zb5LHg6sUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714384976678-i0hjua6jnok662hv5h9orbqprpe0hk62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">tdahelp</string>
+    <string name="title_activity_tela_menu">TelaMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_menu">Menu</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_questionario">Questionario</string>
+    <string name="menu_conf">Configurações</string>
+    <string name="menu_compartilhar">Compartilhar</string>
+    <string name="action_settings">settings</string>
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela_memoria"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorMemory"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        tools:context=".TelaMemoria">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iconMemory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/img_memoria" />
+
+            <TextView
+                android:id="@+id/text_memoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bowlby_one"
+                android:text="JOGO DA MEMÓRIA"
+                android:textColor="#FFFFFF"
+                android:textSize="21sp" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progresso"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="96dp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorCheck"
+            android:max="6"
+            android:progress="0"
+            android:progressTint="@color/colorAccent"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textProgresso"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:text="0/6"
+                android:fontFamily="@font/bowlby_one"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_op1"
+                android:layout_width="121dp"
+                android:layout_height="98dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="1"
+                android:fontFamily="@font/bowlby_one"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:background="@android:drawable/spinner_background"
+                android:backgroundTint="#3CCC0A"
+                android:onClick="alterar"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/btn_op2"
+                android:layout_width="121dp"
+                android:layout_height="98dp"
+                android:text="2"
+                android:fontFamily="@font/bowlby_one"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:background="@android:drawable/spinner_background"
+                android:backgroundTint="@color/colorBackground"
+                android:stateListAnimator="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_op3"
+                android:layout_width="121dp"
+                android:layout_height="98dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="3"
+                android:fontFamily="@font/bowlby_one"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:background="@android:drawable/spinner_background"
+                android:backgroundTint="#F22E2E"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/btn_op4"
+                android:layout_width="121dp"
+                android:layout_height="98dp"
+                android:text="4"
+                android:fontFamily="@font/bowlby_one"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:background="@android:drawable/spinner_background"
+                android:backgroundTint="#F0FF00"
+                android:stateListAnimator="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_op5"
+                android:layout_width="121dp"
+                android:layout_height="98dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="5"
+                android:fontFamily="@font/bowlby_one"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:background="@android:drawable/spinner_background"
+                android:backgroundTint="#813E07"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/btn_op6"
+                android:layout_width="121dp"
+                android:layout_height="98dp"
+                android:text="6"
+                android:fontFamily="@font/bowlby_one"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:background="@android:drawable/spinner_background"
+                android:backgroundTint="#FF00D2"
+                android:stateListAnimator="@null" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEntrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="96dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/custom_button"
+            android:onClick="logar"
+            android:text="Reiniciar"
+            android:fontFamily="@font/bowlby_one"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</ScrollView>
