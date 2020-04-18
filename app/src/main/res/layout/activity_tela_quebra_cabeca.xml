@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/tela_memoria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorQuebraCabeca"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        tools:context=".TelaMemoria">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAjuda"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/ic_help_outline_black_24dp"
+                    android:onClick="alterar"
+                    android:stateListAnimator="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iconMemory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/img_quebra_cabeca" />
+
+                <TextView
+                    android:id="@+id/text_memoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bowlby_one"
+                    android:text="QUEBRA-CABEÇA"
+                    android:textColor="#FFFFFF"
+                    android:textSize="21sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@android:drawable/spinner_background"
+            android:backgroundTint="#423E58">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_1"
+                    android:layout_width="90dp"
+                    android:layout_height="98dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/custom_buttom_layout"
+                    android:fontFamily="@font/bowlby_one"
+                    android:onClick="alterar"
+                    android:stateListAnimator="@null"
+                    android:text="A"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button_2"
+                    android:layout_width="90dp"
+                    android:layout_height="98dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/custom_buttom_layout"
+                    android:fontFamily="@font/bowlby_one"
+                    android:onClick="alterar"
+                    android:stateListAnimator="@null"
+                    android:text="B"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button_3"
+                    android:layout_width="90dp"
+                    android:layout_height="98dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/custom_buttom_layout"
+                    android:fontFamily="@font/bowlby_one"
+                    android:onClick="alterar"
+                    android:stateListAnimator="@null"
+                    android:text="C"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_4"
+                    android:layout_width="90dp"
+                    android:layout_height="98dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/custom_buttom_layout"
+                    android:fontFamily="@font/bowlby_one"
+                    android:onClick="alterar"
+                    android:stateListAnimator="@null"
+                    android:text="D"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button_5"
+                    android:layout_width="90dp"
+                    android:layout_height="98dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/custom_buttom_layout"
+                    android:fontFamily="@font/bowlby_one"
+                    android:onClick="alterar"
+                    android:stateListAnimator="@null"
+                    android:text="E"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button_6"
+                    android:layout_width="90dp"
+                    android:layout_height="98dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/custom_buttom_layout"
+                    android:fontFamily="@font/bowlby_one"
+                    android:onClick="alterar"
+                    android:stateListAnimator="@null"
+                    android:text="F"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_7"
+                    android:layout_width="90dp"
+                    android:layout_height="98dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/custom_buttom_layout"
+                    android:fontFamily="@font/bowlby_one"
+                    android:onClick="alterar"
+                    android:stateListAnimator="@null"
+                    android:text="G"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button_8"
+                    android:layout_width="90dp"
+                    android:layout_height="98dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/custom_buttom_layout"
+                    android:fontFamily="@font/bowlby_one"
+                    android:onClick="alterar"
+                    android:stateListAnimator="@null"
+                    android:text="H"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button_9"
+                    android:layout_width="90dp"
+                    android:layout_height="98dp"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:background="@drawable/custom_buttom_layout2"
+                    android:fontFamily="@font/bowlby_one"
+                    android:onClick="alterar"
+                    android:stateListAnimator="@null"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btnReiniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="96dp"
+        android:background="@drawable/custom_button"
+        android:drawableLeft="@drawable/ic_refresh_black_24dp"
+        android:fontFamily="@font/bowlby_one"
+        android:onClick="restart"
+        android:scaleType="centerCrop"
+        android:text="Reiniciar"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+    </LinearLayout>
+</ScrollView>

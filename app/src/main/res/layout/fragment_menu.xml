@@ -75,7 +75,8 @@
                     android:layout_marginEnd="32dp"
                     android:background="@drawable/img_quebra_cabeca"
                     android:stateListAnimator="@null"
-                    android:textSize="17sp" />
+                    android:textSize="17sp"
+                    android:onClick="quebraCabeca" />
 
                 <TextView
                     android:id="@+id/text_quebra_cabeca"
@@ -106,7 +107,8 @@
                 android:layout_marginEnd="16dp"
                 android:background="@drawable/img_colorir"
                 android:stateListAnimator="@null"
-                android:textSize="17sp" />
+                android:textSize="17sp"
+                android:onClick="colorir" />
 
             <TextView
                 android:id="@+id/text_colorir"

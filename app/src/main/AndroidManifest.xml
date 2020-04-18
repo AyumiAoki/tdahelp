@@ -10,14 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.tdahelp.TelaMemoria"
-            android:theme="@style/AppTheme.Memory"/>
+            android:name=".TelaColorir"
+            android:theme="@style/AppTheme.Colorir" />
         <activity
-            android:name="com.example.tdahelp.TelaMenu"
+            android:name=".TelaQuebraCabeca"
+            android:theme="@style/AppTheme.QuebraCabeca" />
+        <activity
+            android:name=".TelaMemoria"
+            android:theme="@style/AppTheme.Memory" />
+        <activity
+            android:name=".TelaMenu"
             android:label="@string/title_activity_tela_menu"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.tdahelp.TelaCadastro" />
-        <activity android:name="com.example.tdahelp.MainActivity">
+        <activity android:name=".TelaCadastro" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

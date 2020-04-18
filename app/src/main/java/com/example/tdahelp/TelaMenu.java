@@ -55,5 +55,19 @@ public class TelaMenu extends AppCompatActivity {
     public void memoria(View view){
         Intent intent = new Intent(getApplicationContext(), TelaMemoria.class);
         startActivity(intent);
+
     }
+
+    public void quebraCabeca(View view){
+        Intent intent = new Intent(getApplicationContext(), TelaQuebraCabeca.class);
+        startActivity(intent);
+
+    }
+
+    public void colorir(View view){
+        Intent intent = new Intent(getApplicationContext(), TelaColorir.class);
+        startActivity(intent);
+
+    }
+
 }

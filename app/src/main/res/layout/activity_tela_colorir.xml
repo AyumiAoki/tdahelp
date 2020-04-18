@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/tela_memoria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorColorir"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        tools:context=".TelaMemoria">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAjuda"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/ic_help_outline_black_24dp"
+                    android:onClick="alterar"
+                    android:stateListAnimator="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iconMemory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/img_colorir" />
+
+                <TextView
+                    android:id="@+id/text_memoria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bowlby_one"
+                    android:text="COLORIR"
+                    android:textColor="#FFFFFF"
+                    android:textSize="21sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

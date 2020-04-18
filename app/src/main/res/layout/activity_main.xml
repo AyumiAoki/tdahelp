@@ -98,8 +98,9 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/custom_button_google"
-            android:text="Entrar com Google"
+            android:drawableLeft="@drawable/img_google"
             android:fontFamily="@font/bowlby_one"
+            android:text="Entrar com Google"
             android:textColor="#FFFFFF"
             android:textSize="17sp" />
 
