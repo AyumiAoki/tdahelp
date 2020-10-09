@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tdahelp">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".TelaJogarSemCadastro"></activity>
+        <activity android:name=".TelaMenu" />
         <activity
             android:name=".TelaColorir"
             android:theme="@style/AppTheme.Colorir" />
@@ -18,10 +22,6 @@
         <activity
             android:name=".TelaMemoria"
             android:theme="@style/AppTheme.Memory" />
-        <activity
-            android:name=".TelaMenu"
-            android:label="@string/title_activity_tela_menu"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".TelaCadastro" />
         <activity android:name=".MainActivity">
             <intent-filter>

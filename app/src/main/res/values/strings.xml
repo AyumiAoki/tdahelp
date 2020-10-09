@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">tdahelp</string>
+    <string name="app_name">TDAHelp</string>
     <string name="title_activity_tela_menu">TelaMenu</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -13,4 +13,18 @@
     <string name="menu_conf">Configurações</string>
     <string name="menu_compartilhar">Compartilhar</string>
     <string name="action_settings">settings</string>
+
+    <string name="start_new">New</string>
+    <string name="erase">Erase</string>
+    <string name="clear">Save</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="load">Load</string>
+    <string name="paint">Paint</string>
+    <string name="dialog_message">Dialog Message</string>
+    <string name="timeout_msg">Do you like your work?</string>
+    <string name="save_msg">Save Drawing?</string>
+    <string name="load_msg">Load Previous Painting?</string>
+    <string name="new_msg">Start New Drawing?</string>
+    <string name="clear_msg">Clear the Screen?</string>
 </resources>

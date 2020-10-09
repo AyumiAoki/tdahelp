@@ -27,13 +27,6 @@
                 android:gravity="right"
                 android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/btnAjuda"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:background="@drawable/ic_help_outline_black_24dp"
-                    android:onClick="alterar"
-                    android:stateListAnimator="@null" />
             </LinearLayout>
 
             <LinearLayout

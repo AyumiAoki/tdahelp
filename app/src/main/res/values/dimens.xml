@@ -5,4 +5,9 @@
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <dimen name="nav_header_height">176dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="brush">20dp</dimen>
+    <integer name="brush_size">20</integer>
+    <dimen name="icon_size">56dp</dimen>
+    <dimen name="endMargin">10dp</dimen>
+    <integer name="color_size">50</integer>
 </resources>
