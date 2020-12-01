@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TelaJogarSemCadastro"></activity>
+        <activity android:name=".SplashScreen"></activity>
+        <activity android:name=".TelaJogarSemCadastro" />
         <activity android:name=".TelaMenu" />
         <activity
             android:name=".TelaColorir"
